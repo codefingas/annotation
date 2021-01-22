@@ -1,0 +1,8 @@
+{
+  "name": "annotation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/codefingas/annotation.git",
+  "author": "codefingas <udohezekiel34@yahoo.com>",
+  "license": "MIT"
+}
