@@ -27,3 +27,19 @@ let point : {x: number ; y: number} = {
     x: 10,
     y: 20
 };
+
+//Function
+const logNumber : (i: number) => void = (i: number) => {
+    console.log(i);
+};
+
+
+//using annotations when a variable cannot be inferred correctly
+let theNumbers = [-10, -12, 30];
+let foundNumber: boolean | number = false;
+
+for (let i = 0; i < theNumbers.length; i++){
+    if(theNumbers[i] > 0){
+        foundNumber = theNumbers[i];
+    }
+}
