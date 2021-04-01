@@ -13,13 +13,6 @@ let colors : string[] = ['red', 'yellow', 'green', 'blue'];
 let truths : boolean[] = [true, false, true, false];
 let numbers : number[] = [1, 2, 3, 4, 5, 6, 7];
 
-//Classes
-class Car {
-
-};
-
-let car : Car = new Car();
-
 
 
 //Object literals

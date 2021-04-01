@@ -12,17 +12,24 @@ class Vehicle {
 
 const vehicle = new Vehicle("orange");
 console.log(vehicle.color);
-// class Car extends Vehicle {
-//     private drive(): void {
-//         console.log('Vroom');
-//     }
 
-//     startdrivingProcess(){
-//         this.drive();
-//         this.honk();
-//     }
-// }
+class Car extends Vehicle {
 
-// const corrolla = new Car();
+    constructor(public wheels: number, color: string){
+        super(color);
+    }
+
+
+    private drive(): void {
+        console.log('Vroom');
+    }
+
+    startdrivingProcess(){
+        this.drive();
+        this.honk();
+    }
+}
+
+const corrolla = new Car(4, 'red');
 
 // corrolla.startdrivingProcess();
